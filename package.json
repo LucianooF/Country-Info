@@ -1,0 +1,33 @@
+{
+  "name": "developstoday",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"BE/**/*.{js,jsx,ts,tsx}\" \"FE/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"BE/**/*.{js,jsx,ts,tsx}\" \"FE/**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier --write \"BE/**/*.{js,jsx,ts,tsx,css,html,json}\" \"FE/**/*.{js,jsx,ts,tsx,css,html,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucianooF/Country-Info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucianooF/Country-Info/issues"
+  },
+  "homepage": "https://github.com/LucianooF/Country-Info#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.0",
+    "eslint-plugin-react": "^7.31.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.8.0"
+  },
+  "description": ""
+}
